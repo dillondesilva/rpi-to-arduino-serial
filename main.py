@@ -14,3 +14,4 @@ ser = serial.Serial(
 while True:
     txt = ser.readline()
     print(txt)
+    time.sleep(100)
